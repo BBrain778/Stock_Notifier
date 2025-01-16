@@ -39,9 +39,9 @@ def get_price():
 
 def send_email(subject, body):
     # Gmail 設定
-    sender_email = "chenboan1130@gmail.com"  # 替換成你的 Gmail
-    receiver_email = "brichrlit@gmail.com"  # 替換成接收通知的信箱
-    password = "bchn ndyl nuyr epbm"  # 替換成你的應用程式密碼
+    sender_email = "********@gmail.com"  # 替換成你的 Gmail
+    receiver_email = "********@gmail.com"  # 替換成接收通知的信箱
+    password = "********"  # 替換成你的應用程式密碼
     
     # 建立郵件
     message = MIMEMultipart()
@@ -71,7 +71,7 @@ def main():
             send_email(
                 "聯華實業(1229)價格警告 - 請盡速賣出",
                 f"""當前價格 ({price}) 已低於 40！\n\n
-購入價格62.38 (持有79股)
+
                 
 時間: {datetime.now()}
                 
